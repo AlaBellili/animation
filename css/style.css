@@ -1,0 +1,109 @@
+.street {
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    background-image: url(../images/street.png);
+}
+.street2 {
+    margin-top: 150px;
+}
+.street3 {
+    margin-top: 300px;
+}
+.street4 {
+    margin-top: 450px;
+}
+.street5 {
+    margin-top: 600px;
+}
+.street6 {
+    margin-top: 750px;
+}
+.street7 {
+    margin-top: 900px;
+}
+.street8 {
+    margin-top: 1050px;
+}
+
+.right {
+    width: 150px;
+    height: 100px;
+    background-image: url(../images/car1.png);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+
+
+    animation-name: change-right;
+    animation-duration: 4s;
+}
+.left {
+    right: 0;
+    width: 150px;
+    height: 100px;
+    background-image: url(../images/car2.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+
+
+    animation-name: change-left;
+    animation-duration: 4s;
+}
+.div1 {
+    margin-top: 20px;
+    animation-delay: 1s;
+}
+.div2{
+    margin-top: 170px;
+    animation-delay: 5s;
+}
+.div3 {
+    margin-top: 320px;
+    animation-delay: 9s;
+}
+.div4 {
+    margin-top: 470px;
+    animation-delay: 13s;
+}
+.div5 {
+    margin-top: 620px;
+    animation-delay: 17s;
+}
+.div6 {
+    margin-top: 770px;
+    animation-delay: 21s;
+}
+.div7 {
+    margin-top: 920px;
+    animation-delay: 25s;
+}
+.div8 {
+    margin-top: 1070px;
+    animation-delay: 29s;
+}
+
+@keyframes change-right {
+    0% {
+        
+    }
+    50% {
+        left:1200px;
+    }
+    100% {
+        left:0px;
+    }
+}
+@keyframes change-left {
+    0% {
+        
+    }
+    50% {
+        right:1200px;
+    }
+    100% {
+        right:0px;
+    }
+}
